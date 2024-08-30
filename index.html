@@ -6,6 +6,13 @@
     <title>Footer Example</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script>
+        tailwind.config-
+        {theme:
+            {extend:{
+                colors:{teal:'#14b8a6'}} }}
+    </script>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
 <body>
     <footer class="bg-[#659f8f] dark:bg-[#313131]">
@@ -24,7 +31,7 @@
                         </div>
                         <div>
                             <p class="text-[#313131]">Quick Link</p>
-                            <div class="flex">
+                            <div class="flex flex-col gap-y-2">
                                 <a href="#">Home</a>
                                 <a href="#">Who We Are</a>
                                 <a href="#">Our Philosophy</a>
@@ -32,7 +39,7 @@
                         </div>
                         <div>
                             <p class="text-[#313131]">Technologies</p>
-                            <div class="">
+                            <div class="flex flex-col">
                                 <a href="#">HTML</a>
                                 <a href="#">CSS</a>
                                 <a href="#">JavaScript</a>
